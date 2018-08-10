@@ -1,0 +1,126 @@
+2018-08-10 16:36:25,456 [main] INFO  Application 48 - Starting Application on DESKTOP-5T5N7GO with PID 4476 (F:\code\xxl-job\xxl-job-admin\target\classes started by B-0006 in F:\code\xxl-job)
+2018-08-10 16:36:25,459 [main] INFO  Application 597 - The following profiles are active: dev
+2018-08-10 16:36:25,705 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8c11eee: startup date [Fri Aug 10 16:36:25 CST 2018]; root of context hierarchy
+2018-08-10 16:36:26,225 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 166 - No MyBatis mapper was found in '[com.github.ssl.job]' package. Please check your configuration.
+2018-08-10 16:36:26,288 [main] WARN  o.s.c.a.ConfigurationClassPostProcessor 373 - Cannot enhance @Configuration bean definition 'config' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-08-10 16:36:26,497 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start embedded container; nested exception is org.springframework.context.ApplicationContextException: Unable to start EmbeddedWebApplicationContext due to missing EmbeddedServletContainerFactory bean.
+2018-08-10 16:36:26,504 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer 101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-08-10 17:00:15,324 [main] INFO  com.github.xxl.job.Application 48 - Starting Application on DESKTOP-5T5N7GO with PID 1120 (F:\code\xxl-job\xxl-job-admin\target\classes started by B-0006 in F:\code\xxl-job)
+2018-08-10 17:00:15,327 [main] INFO  com.github.xxl.job.Application 597 - The following profiles are active: dev
+2018-08-10 17:00:15,662 [background-preinit] INFO  o.h.validator.internal.util.Version 30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-08-10 17:00:15,794 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7d42c224: startup date [Fri Aug 10 17:00:15 CST 2018]; root of context hierarchy
+2018-08-10 17:00:15,894 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.github.xxl.job.Application]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.github.xxl.job.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.github.xxl.job.admin.config.Config]
+2018-08-10 17:02:24,577 [main] INFO  com.github.xxl.job.Application 48 - Starting Application on DESKTOP-5T5N7GO with PID 5064 (F:\code\xxl-job\xxl-job-admin\target\classes started by B-0006 in F:\code\xxl-job)
+2018-08-10 17:02:24,581 [main] INFO  com.github.xxl.job.Application 597 - The following profiles are active: dev
+2018-08-10 17:02:24,839 [background-preinit] INFO  o.h.validator.internal.util.Version 30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-08-10 17:02:25,027 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e84a8e1: startup date [Fri Aug 10 17:02:25 CST 2018]; root of context hierarchy
+2018-08-10 17:02:25,521 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 166 - No MyBatis mapper was found in '[com.github.xxl.job]' package. Please check your configuration.
+2018-08-10 17:02:25,576 [main] WARN  o.s.c.a.ConfigurationClassPostProcessor 373 - Cannot enhance @Configuration bean definition 'config' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-08-10 17:02:26,182 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 92 - Tomcat initialized with port(s): 9000 (http)
+2018-08-10 17:02:26,195 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-9000"]
+2018-08-10 17:02:26,206 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-08-10 17:02:26,207 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-10 17:02:26,304 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-08-10 17:02:26,305 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 276 - Root WebApplicationContext: initialization completed in 1278 ms
+2018-08-10 17:02:26,458 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 191 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-10 17:02:26,462 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 259 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-10 17:02:26,463 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 259 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-10 17:02:26,463 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 259 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-10 17:02:26,463 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 259 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-10 17:02:26,581 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xxlJobAdminConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'xxl.job.mail.ssl' in value "${xxl.job.mail.ssl}"
+2018-08-10 17:02:26,583 [main] INFO  o.a.catalina.core.StandardService 180 - Stopping service [Tomcat]
+2018-08-10 17:02:26,599 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer 101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-08-10 17:07:37,361 [main] INFO  com.github.xxl.job.Application 48 - Starting Application on DESKTOP-5T5N7GO with PID 14964 (F:\code\xxl-job\xxl-job-admin\target\classes started by B-0006 in F:\code\xxl-job)
+2018-08-10 17:07:37,364 [main] INFO  com.github.xxl.job.Application 597 - The following profiles are active: dev
+2018-08-10 17:07:37,556 [background-preinit] INFO  o.h.validator.internal.util.Version 30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-08-10 17:07:37,746 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext 583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16c63f5: startup date [Fri Aug 10 17:07:37 CST 2018]; root of context hierarchy
+2018-08-10 17:07:38,241 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 166 - No MyBatis mapper was found in '[com.github.xxl.job]' package. Please check your configuration.
+2018-08-10 17:07:38,301 [main] WARN  o.s.c.a.ConfigurationClassPostProcessor 373 - Cannot enhance @Configuration bean definition 'config' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-08-10 17:07:38,884 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 92 - Tomcat initialized with port(s): 9000 (http)
+2018-08-10 17:07:38,897 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-9000"]
+2018-08-10 17:07:38,906 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2018-08-10 17:07:38,906 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-10 17:07:38,996 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2018-08-10 17:07:38,996 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 276 - Root WebApplicationContext: initialization completed in 1250 ms
+2018-08-10 17:07:39,143 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 191 - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-10 17:07:39,159 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 259 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-10 17:07:39,160 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 259 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-10 17:07:39,160 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 259 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-10 17:07:39,160 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 259 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-10 17:07:39,295 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog 212 - MLog clients using slf4j logging.
+2018-08-10 17:07:39,323 [main] INFO  com.mchange.v2.c3p0.C3P0Registry 212 - Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2018-08-10 17:07:39,643 [main] INFO  o.s.s.quartz.SchedulerFactoryBean 549 - Loading Quartz config from [class path resource [quartz.properties]]
+2018-08-10 17:07:39,728 [main] INFO  org.quartz.impl.StdSchedulerFactory 1208 - Using default implementation for ThreadExecutor
+2018-08-10 17:07:39,730 [main] INFO  org.quartz.simpl.SimpleThreadPool 268 - Job execution threads will use class loader of thread: main
+2018-08-10 17:07:39,740 [main] INFO  o.quartz.core.SchedulerSignalerImpl 61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-08-10 17:07:39,740 [main] INFO  org.quartz.core.QuartzScheduler 229 - Quartz Scheduler v.2.3.0 created.
+2018-08-10 17:07:39,762 [main] INFO  c.m.v.c.i.AbstractPoolBackedDataSource 212 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 10, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 2rw3s39x9qimk26nt9cu|7be2f29a, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 2rw3s39x9qimk26nt9cu|7be2f29a, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://45.32.254.172:3306/xxl-job?useUnicode=true&characterEncoding=UTF-8&useSSL=false, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 60, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 2, numHelperThreads -> 3, preferredTestQuery -> SELECT 1, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2018-08-10 17:07:42,030 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore 672 - Using db table-based data access locking (synchronization).
+2018-08-10 17:07:42,036 [main] INFO  o.s.s.quartz.LocalDataSourceJobStore 145 - JobStoreCMT initialized.
+2018-08-10 17:07:42,040 [main] INFO  org.quartz.core.QuartzScheduler 294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'DESKTOP-5T5N7GO1533892059729'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 15 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2018-08-10 17:07:42,041 [main] INFO  org.quartz.impl.StdSchedulerFactory 1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-08-10 17:07:42,042 [main] INFO  org.quartz.impl.StdSchedulerFactory 1366 - Quartz scheduler version: 2.3.0
+2018-08-10 17:07:42,045 [main] INFO  org.quartz.core.QuartzScheduler 2287 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@4293e066
+2018-08-10 17:07:42,072 [main] INFO  c.x.j.a.c.s.XxlJobDynamicScheduler 87 - >>>>>>>>> init xxl-job admin success.
+2018-08-10 17:07:42,351 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16c63f5: startup date [Fri Aug 10 17:07:37 CST 2018]; root of context hierarchy
+2018-08-10 17:07:42,415 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/help]}" onto public java.lang.String com.xxl.job.admin.controller.IndexController.help()
+2018-08-10 17:07:42,417 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/]}" onto public java.lang.String com.xxl.job.admin.controller.IndexController.index(org.springframework.ui.Model)
+2018-08-10 17:07:42,417 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/login],methods=[POST]}" onto public com.xxl.job.core.biz.model.ReturnT<java.lang.String> com.xxl.job.admin.controller.IndexController.loginDo(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+2018-08-10 17:07:42,418 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/chartInfo]}" onto public com.xxl.job.core.biz.model.ReturnT<java.util.Map<java.lang.String, java.lang.Object>> com.xxl.job.admin.controller.IndexController.chartInfo(java.util.Date,java.util.Date)
+2018-08-10 17:07:42,418 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/logout],methods=[POST]}" onto public com.xxl.job.core.biz.model.ReturnT<java.lang.String> com.xxl.job.admin.controller.IndexController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-10 17:07:42,418 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/toLogin]}" onto public java.lang.String com.xxl.job.admin.controller.IndexController.toLogin(org.springframework.ui.Model,javax.servlet.http.HttpServletRequest)
+2018-08-10 17:07:42,419 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/api]}" onto public void com.xxl.job.admin.controller.JobApiController.api(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+2018-08-10 17:07:42,421 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/jobcode]}" onto public java.lang.String com.xxl.job.admin.controller.JobCodeController.index(org.springframework.ui.Model,int)
+2018-08-10 17:07:42,421 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/jobcode/save]}" onto public com.xxl.job.core.biz.model.ReturnT<java.lang.String> com.xxl.job.admin.controller.JobCodeController.save(org.springframework.ui.Model,int,java.lang.String,java.lang.String)
+2018-08-10 17:07:42,422 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/jobgroup]}" onto public java.lang.String com.xxl.job.admin.controller.JobGroupController.index(org.springframework.ui.Model)
+2018-08-10 17:07:42,423 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/jobgroup/remove]}" onto public com.xxl.job.core.biz.model.ReturnT<java.lang.String> com.xxl.job.admin.controller.JobGroupController.remove(int)
+2018-08-10 17:07:42,423 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/jobgroup/update]}" onto public com.xxl.job.core.biz.model.ReturnT<java.lang.String> com.xxl.job.admin.controller.JobGroupController.update(com.xxl.job.admin.core.model.XxlJobGroup)
+2018-08-10 17:07:42,423 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/jobgroup/save]}" onto public com.xxl.job.core.biz.model.ReturnT<java.lang.String> com.xxl.job.admin.controller.JobGroupController.save(com.xxl.job.admin.core.model.XxlJobGroup)
+2018-08-10 17:07:42,427 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/jobinfo]}" onto public java.lang.String com.xxl.job.admin.controller.JobInfoController.index(org.springframework.ui.Model,int)
+2018-08-10 17:07:42,427 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/jobinfo/add]}" onto public com.xxl.job.core.biz.model.ReturnT<java.lang.String> com.xxl.job.admin.controller.JobInfoController.add(com.xxl.job.admin.core.model.XxlJobInfo)
+2018-08-10 17:07:42,428 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/jobinfo/remove]}" onto public com.xxl.job.core.biz.model.ReturnT<java.lang.String> com.xxl.job.admin.controller.JobInfoController.remove(int)
+2018-08-10 17:07:42,428 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/jobinfo/update]}" onto public com.xxl.job.core.biz.model.ReturnT<java.lang.String> com.xxl.job.admin.controller.JobInfoController.update(com.xxl.job.admin.core.model.XxlJobInfo)
+2018-08-10 17:07:42,428 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/jobinfo/resume]}" onto public com.xxl.job.core.biz.model.ReturnT<java.lang.String> com.xxl.job.admin.controller.JobInfoController.resume(int)
+2018-08-10 17:07:42,429 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/jobinfo/pageList]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.xxl.job.admin.controller.JobInfoController.pageList(int,int,int,java.lang.String,java.lang.String,java.lang.String)
+2018-08-10 17:07:42,429 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/jobinfo/pause]}" onto public com.xxl.job.core.biz.model.ReturnT<java.lang.String> com.xxl.job.admin.controller.JobInfoController.pause(int)
+2018-08-10 17:07:42,429 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/jobinfo/trigger]}" onto public com.xxl.job.core.biz.model.ReturnT<java.lang.String> com.xxl.job.admin.controller.JobInfoController.triggerJob(int)
+2018-08-10 17:07:42,432 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/joblog]}" onto public java.lang.String com.xxl.job.admin.controller.JobLogController.index(org.springframework.ui.Model,java.lang.Integer)
+2018-08-10 17:07:42,432 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/joblog/pageList]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.xxl.job.admin.controller.JobLogController.pageList(int,int,int,int,int,java.lang.String)
+2018-08-10 17:07:42,432 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/joblog/logDetailPage]}" onto public java.lang.String com.xxl.job.admin.controller.JobLogController.logDetailPage(int,org.springframework.ui.Model)
+2018-08-10 17:07:42,433 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/joblog/logDetailCat]}" onto public com.xxl.job.core.biz.model.ReturnT<com.xxl.job.core.biz.model.LogResult> com.xxl.job.admin.controller.JobLogController.logDetailCat(java.lang.String,long,int,int)
+2018-08-10 17:07:42,433 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/joblog/logKill]}" onto public com.xxl.job.core.biz.model.ReturnT<java.lang.String> com.xxl.job.admin.controller.JobLogController.logKill(int)
+2018-08-10 17:07:42,433 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/joblog/clearLog]}" onto public com.xxl.job.core.biz.model.ReturnT<java.lang.String> com.xxl.job.admin.controller.JobLogController.clearLog(int,int,int)
+2018-08-10 17:07:42,434 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/joblog/getJobsByGroup]}" onto public com.xxl.job.core.biz.model.ReturnT<java.util.List<com.xxl.job.admin.core.model.XxlJobInfo>> com.xxl.job.admin.controller.JobLogController.getJobsByGroup(int)
+2018-08-10 17:07:42,435 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-10 17:07:42,436 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-10 17:07:42,465 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-10 17:07:42,465 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-10 17:07:42,496 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-10 17:07:42,734 [main] INFO  o.s.w.s.v.f.FreeMarkerConfigurer 127 - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-08-10 17:07:43,166 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 431 - Registering beans for JMX exposure on startup
+2018-08-10 17:07:43,173 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 343 - Starting beans in phase 2147483647
+2018-08-10 17:07:43,174 [main] INFO  o.s.s.quartz.SchedulerFactoryBean 650 - Will start Quartz Scheduler [quartzScheduler] in 20 seconds
+2018-08-10 17:07:43,180 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-9000"]
+2018-08-10 17:07:43,195 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2018-08-10 17:07:43,216 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer 216 - Tomcat started on port(s): 9000 (http)
+2018-08-10 17:07:43,220 [main] INFO  com.github.xxl.job.Application 57 - Started Application in 6.479 seconds (JVM running for 7.174)
+2018-08-10 17:08:03,175 [Quartz Scheduler [quartzScheduler]] INFO  o.s.s.quartz.SchedulerFactoryBean 665 - Starting Quartz Scheduler now, after delay of 20 seconds
+2018-08-10 17:08:05,698 [Quartz Scheduler [quartzScheduler]] INFO  org.quartz.core.QuartzScheduler 547 - Scheduler quartzScheduler_$_DESKTOP-5T5N7GO1533892059729 started.
+2018-08-10 17:08:16,415 [http-nio-9000-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-10 17:08:16,415 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet 489 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-10 17:08:16,439 [http-nio-9000-exec-2] INFO  o.s.web.servlet.DispatcherServlet 508 - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-08-10 17:30:47,532 [http-nio-9000-exec-9] INFO  c.x.j.a.c.s.XxlJobDynamicScheduler 216 - >>>>>>>>>>> addJob success, jobDetail:JobDetail '1.1':  jobClass: 'com.xxl.job.admin.core.jobbean.RemoteHttpJobBean concurrentExectionDisallowed: false persistJobDataAfterExecution: false isDurable: false requestsRecovers: false, cronTrigger:Trigger '1.1':  triggerClass: 'org.quartz.impl.triggers.CronTriggerImpl calendar: 'null' misfireInstruction: 2 nextFireTime: Fri Aug 10 17:30:45 CST 2018, date:Fri Aug 10 17:30:45 CST 2018
+2018-08-10 17:30:58,502 [pool-2-thread-2] INFO  o.s.b.f.xml.XmlBeanDefinitionReader 317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-08-10 17:30:58,535 [pool-2-thread-2] INFO  o.s.j.support.SQLErrorCodesFactory 127 - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+2018-08-10 17:32:27,705 [http-nio-9000-exec-6] INFO  c.x.j.a.c.s.XxlJobDynamicScheduler 312 - >>>>>>>>>>> pauseJob success, triggerKey:1.1

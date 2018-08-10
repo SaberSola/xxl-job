@@ -1,0 +1,60 @@
+server:
+  port: 9000
+
+spring:
+  application:
+     name: xxl-job-admin
+     version: 1.0
+  profiles:
+    active: dev
+  freemarker:
+    prefix:
+    suffix: .ftl
+    content-type: text/html;charset=UTF-8
+    expose-spring-macro-helpers: true
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: request
+    cache: true
+    order: 0
+    settings:
+       template_update_delay: 0
+       default_encoding: UTF-8
+       output_encoding: UTF-8
+       locale: zh_CN
+       number_format: 0.##########
+       date_format: yyyy-MM-dd
+       time_format: HH:mm:ss
+       datetime_format: yyyy-MM-dd HH:mm:s
+       classic_compatible: true
+       template_exception_handler: ignore
+    template-loader-path: classpath:/template/
+
+
+### xxl-job db
+xxl.job.db:
+  driverClass: com.mysql.jdbc.Driver
+  url: jdbc:mysql://*****************:3306/xxl-job?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+  user: admin
+  password: admin
+
+### xxl-job email
+xxl.job.mail:
+  host: smtp.xyz.cn
+  port: 25
+  username: monitor@xyz.cn
+  password: passw0rd
+  sendNick: 《任务调度平台》
+  ssl: false
+
+### xxl-job login
+xxl.job.login:
+  username: admin
+  password: 123456
+
+### xxl-job, access token
+xxl.job.accessToken:
+
+### xxl-job, i18n (default empty as chinese, "en" as english)
+xxl.job.i18n:
+
